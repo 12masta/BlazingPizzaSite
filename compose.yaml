@@ -1,0 +1,6 @@
+﻿services:
+  blazingpizzasite:
+    image: blazingpizzasite
+    build:
+      context: .
+      dockerfile: BlazingPizzaSite/Dockerfile
